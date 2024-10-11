@@ -24,10 +24,10 @@ function App() {
         <div id="TeamMembers" className="mt-5">
           <TeamMembers />
         </div>
-        <div id="EventPage" className="mt-auto">
+        <div id="EventPage" className="mt-5">
         <EventPage />
         </div>
-       <div id="About">
+       <div id="About" className="mt-2">
         <About />
        </div>
        <div id="Contact">
