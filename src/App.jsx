@@ -9,10 +9,12 @@ import About from "./components/About";
 import MissionVision from "./components/Mission";
 import Tech from "./components/Tech";
 import ContactUs from "./components/Contact";
+import CustomCursor from "./customCursor";
 
 function App() {
   return (
     <MantineProvider>
+      <CustomCursor/>
       <main className="antialiased overflow-hidden max-w-7xl mx-auto relative z-10">
         <BlurBackground />
         <Navbar />
