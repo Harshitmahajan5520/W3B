@@ -120,12 +120,13 @@ const TeamMembers = () => {
             >
               <HoverImage
                 imageSrc={member.image}
+                hoverName={member.name}
                 hoverText={member.description}
               />
             </motion.div>
           ))
         ) : (
-          <p>Loading team members...</p> // Show loading state while data is being fetched
+          <p>Loading team members...</p> 
         )}
       </div>
     </section>

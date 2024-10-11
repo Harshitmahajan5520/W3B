@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
-const HoverImage = ({ imageSrc, hoverText }) => {
+const HoverImage = ({ imageSrc, hoverText, hoverName }) => {
   return (
     <div className="relative h-[200px] overflow-hidden rounded-lg">
       {/* Image */}
@@ -19,6 +18,8 @@ const HoverImage = ({ imageSrc, hoverText }) => {
         whileHover={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
+        {hoverName}
+        <br />
         {hoverText}
       </motion.div>
     </div>
