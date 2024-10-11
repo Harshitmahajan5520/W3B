@@ -15,7 +15,8 @@ export const LINKS = [
   { href: "#TeamMembers", label: "Team Members" },
   { href: "#EventPage", label: "Events" },
   { href: "#About", label: "About" },
-  { href: "#Contact", label: "Contact" },
+  { href: "#Contact", label: "Contact" },,
+  { href: "/feed", label: "Comment" },
 ];
 
 export const HERO_CONTENT = {
