@@ -4,8 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
-import CommentPage from './components/Feeds.jsx'
-import CommentPage2 from './components/Comment.jsx'
+import CommentPage from './components/Comment.jsx'
 
 const router = createBrowserRouter([
   {
