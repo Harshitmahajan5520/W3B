@@ -16,7 +16,7 @@ export const LINKS = [
   { href: "#EventPage", label: "Events" },
   { href: "#About", label: "About" },
   { href: "#Contact", label: "Contact" },,
-  { href: "/feed", label: "Comment" },
+  { href: "/comment", label: "Comment" },
 ];
 
 export const HERO_CONTENT = {
